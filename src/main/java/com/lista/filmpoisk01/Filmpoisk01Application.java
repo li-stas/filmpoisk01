@@ -17,7 +17,7 @@ import java.util.Map;
 @SpringBootApplication
 public class Filmpoisk01Application implements CommandLineRunner {
     private static final Logger log = LoggerFactory.getLogger(Filmpoisk01Application.class);
-    @Autowired
+    @Autowired // для введения ссылки напрямую в ваш класс:
     SpringBootConfiguration config;
 
     public static void main(String[] args) {
