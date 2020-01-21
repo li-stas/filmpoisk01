@@ -46,9 +46,9 @@ public class WordRepl {
             //document.close();
             log.info("Успешно записан в файл");
             System.out.println("Успешно записан в файл");
-        } catch (IOException e) {
-            e.printStackTrace();
         } catch (InvalidFormatException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
